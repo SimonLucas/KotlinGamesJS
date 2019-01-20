@@ -17,7 +17,7 @@ import kotlin.js.Date
 
 fun main(args: Array<String>) {
     jq {
-        RandomNumberTest().run()
+        // RandomNumberTest().run()
         // FancyLines().run()
         BreakoutGameView().run()
     }

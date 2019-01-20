@@ -1131,7 +1131,6 @@ var KotlinPureJS = function (_, Kotlin) {
     return $this;
   }
   function main$lambda() {
-    (new RandomNumberTest()).run();
     (new BreakoutGameView()).run();
     return Unit;
   }
