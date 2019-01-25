@@ -4,12 +4,16 @@
 
 Should look something like this:
 
-![Breakout Screenshot](docs/BreakoutScreenshot.png)
+![Breakout Screenshot](https://simonlucas.github.io/KotlinGamesJS/docs/BreakoutScreenshot.png)
+
 
 ### Overview
 
 This is a simple example of using Kotlin to write games and simulations that run in a Web Browser.
-Gone are the days when Java Applets can be used: this seems like a good option now.
+This page gives some advice on how to do this, and demonstrates that it's fast enough to
+run Statsitical Forward Planning algorithms in the browser.
+Gone are the days when Java Applets can be used: Kotlin seems like a good option now.
+
 
 [Kotlin](https://kotlinlang.org/) is an excellent new language that interoperates seamlessly with Java.  
 The example here was developed using the free [Community Edition of Intellij IDEA.](https://www.jetbrains.com/idea/)
