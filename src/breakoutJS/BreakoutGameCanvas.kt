@@ -122,7 +122,6 @@ class BreakoutGameView() {
         // would be better to extract the common code
         val params = gameState.state.params
         val s = gameState.state.bat
-        // System.out.println("Bat: " + s);
         val cx = s.x * width
         val cy = s.y * height
 
@@ -136,7 +135,6 @@ class BreakoutGameView() {
         context.font = "20px Comic Sans MS";
         context.fillStyle = "red";
         context.textAlign = CanvasTextAlign.CENTER
-//        val str = "Score = ${gameState.score().toInt()}, mouse = ${mousePos.x}, ${mousePos.y}"
         val str = "Score = ${gameState.score().toInt()}, human = $humanPlayer"
         context.fillText(str, width / 2.0, height / 10.0);
         if (!humanPlayer) {
