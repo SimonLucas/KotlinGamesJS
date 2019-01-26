@@ -45,7 +45,7 @@ You then just have to do the View and event handling differently for desktop ver
 
 ### Writing Graphics Code in Kotlin
 
-To learn the necessary graphics code Breakout example I looked at the code here:
+To learn the necessary graphics code for the Breakout example I looked at the code here:
 https://try.kotlinlang.org/#/Examples/Canvas/Creatures/Creatures.kt 
 It's a good website with interesting examples.
 
@@ -53,7 +53,8 @@ The drawing code is all in [BreakoutGameCanvas](src/breakoutJS/BreakoutGameCanva
 
 Example methods are shown below for drawing the bat and the score.  It's mostly ok,
 the only horrible thing is passing Strings to control the colour (takes a bit
-of figuring out how to get this right...)
+of figuring out how to get this right i.e. the settings of `context.fillStyle`
+which can take several types of colour specification.)
 
 ```
 
@@ -134,8 +135,6 @@ version of the algorithm:
 
 Or this one for the first use of Rolling Horizon Evolution (as far as we know) for real-time game AI:
 
-D Perez, S Samothrakis, S Lucas, P Rohlfshagen
-Proceedings of the 15th annual conference on Genetic and evolutionary …
 
 ```bibtex
 @article{NTBEA-AgentTuning,
