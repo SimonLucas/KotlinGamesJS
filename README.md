@@ -141,7 +141,7 @@ Or this one for the first use of Rolling Horizon Evolution (as far as we know) f
   title={Rolling horizon evolution versus tree search for navigation in single-player real-time games},
   author={Diego Perez-Liebana and Spyros Samothrakis and Simon M. Lucas and Philipp Rohlfshagen},
   journal={Proceedings of the 15th annual conference on genetic and evolutionary computation (GECCO)},
-  note={\url{https://arxiv.org/abs/1802.05991}},
+  note={\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.703.9872&rep=rep1&type=pdf}},
   year={2013}
 }
 ```
