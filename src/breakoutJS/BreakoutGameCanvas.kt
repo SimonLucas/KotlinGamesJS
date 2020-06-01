@@ -28,7 +28,7 @@ fun initalizeCanvas(): HTMLCanvasElement {
     val canvas = document.createElement("canvas") as HTMLCanvasElement
     val context = canvas.getContext("2d") as CanvasRenderingContext2D
     context.canvas.width = window.innerWidth // 800
-    context.canvas.height = 2 * window.innerHeight / 3 // 400
+    context.canvas.height = window.innerHeight // 400
 
 //    window.open("https://www.w3schools.com", "_blank",
 //            "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
